@@ -1,4 +1,42 @@
+:root {
+  --oneColor: #00e51c;
+  --twoColor: #759a6b;
+  --threeColor: #def8d6;
+  --fourColor: #004c74;
+  --fiveColor: #597b98;
+  --sixColor: #d2f5ff;
+}
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--sixColor);
+}
+.navbar {
+  height: 50px;
+  background-color: var(--fourColor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar #menu {
+  list-style: none;
+  margin-right: 30px;
+}
+.navbar #menu li {
+  display: inline-block;
+  margin-right: 30px;
+  color: white;
+}
+.navbar #menu li > a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+.navbar #logo {
+  margin-left: 30px;
+  padding: 10px;
 }

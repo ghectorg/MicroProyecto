@@ -76,7 +76,7 @@ body {
   bottom: 20px;
 }
 .circles {
-  border: 2px solid var(--fourColor);
+  border: 3px solid var(--fourColor);
   width: 25px;
   height: 25px;
   display: inline-block;
@@ -144,7 +144,7 @@ body {
   text-align: center;
 }
 
-.contenido .info {
+.info {
   font: 16px Verdana, sans-serif;
   list-style: none;
   align-items: center;
@@ -154,4 +154,66 @@ body {
 }
 .contenido .info li {
   line-height: 1.5;
+}
+/*ESTILOS PARA MOSTRAR ABOUT ME*/
+#aboutMe .infoPerson {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  height: 250px;
+}
+.infoPerson figure {
+  flex: 1;
+  height: 250px;
+}
+.infoPerson figure img {
+  width: 100%;
+  height: 100%;
+}
+.infoPerson #objetivos {
+  flex: 1 400px;
+  margin-left: 20px;
+}
+.infoPerson #motivation {
+  flex: 1 1 100%;
+  margin-top: 10px;
+}
+.infoPerson > div {
+  height: 100%;
+}
+#objetivos {
+  display: flex;
+  justify-content: space-around;
+}
+#objetivos > h1 {
+  margin-bottom: 5px;
+  text-align: center;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: var(--oneColor);
+  box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7);
+  border-radius: 5px;
+  color: var(--threeColor);
+}
+.obj {
+  font: 16px Verdana, sans-serif;
+  list-style: none;
+  align-items: center;
+  position: relative;
+  text-align: left;
+}
+
+#motivation > h1 {
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px;
+  background-color: var(--oneColor);
+  box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7);
+  border-radius: 5px;
+  color: var(--threeColor);
+}
+#motivation > p {
+  margin-top: 10px;
+  text-align: center;
 }

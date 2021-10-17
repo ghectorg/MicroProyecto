@@ -15,6 +15,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: var(--sixColor);
 }
+
 .navbar {
   height: 50px;
   background-color: var(--fourColor);
@@ -49,7 +50,7 @@ body {
 }
 .hero #slideShow {
   position: relative;
-  height: 600px;
+  min-height: 100vh;
 }
 .imgSlide {
   position: absolute;
@@ -86,4 +87,71 @@ body {
 .resaltado {
   background-color: var(--oneColor);
   transition: background-color 0.8s;
+}
+
+/*ESTILOS PARA MOSTRAR LA EXPERIENCIA*/
+#title {
+  padding: 20px;
+  color: white;
+  background-color: var(--fourColor);
+  text-align: center;
+  font-size: 20px;
+}
+
+.projects > section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.image {
+  flex: 1 100px;
+  padding: 10px;
+  background-color: var(--fiveColor);
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.image img {
+  max-width: 100%;
+  border: 1px solid;
+}
+
+.contenido {
+  flex: 1 400px;
+  margin-left: 20px;
+  height: 250px;
+}
+
+.contenido h3 {
+  font: bold 20px Verdana, sans-serif;
+  text-align: center;
+}
+
+.contenido time {
+  width: 250px;
+  height: 40px;
+  position: absolute;
+  padding: 10px 15px;
+  background-color: #094660;
+  box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7);
+  border-radius: 5px;
+  align-self: flex-start;
+}
+.intervalo {
+  font: bold 16px Verdana, sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+.contenido .info {
+  font: 16px Verdana, sans-serif;
+  list-style: none;
+  align-items: center;
+  position: relative;
+  top: 20px;
+  left: 300px;
+}
+.contenido .info li {
+  line-height: 1.5;
 }

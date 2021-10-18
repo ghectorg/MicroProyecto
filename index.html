@@ -115,9 +115,23 @@
     </section>
     <section id="skills">
       <div class="mySkills"><canvas id="mySkills" width="500px" height="300px">Este es una grafica con canva</canvas></div>
-      <h1>aula Clic Canvas_</h1>
     </section>
-    <section id="contactMe"></section>
+    <section id="contactMe">
+      <form name="formulario" method="get">
+        
+        <p><label>Nombre: <input type="text" name="nombre" required/></label></p>
+        <p><label>Edad: <input type="text" name="edad" required/></label></p>
+        <p><label>Correo: <input type="email" name="correo" required /></label></p>
+        <p><label>Teléfono: <input type="tel" name="telefono" required></label></p>
+        <p><label>Comentario:
+        <textarea
+              name="texto"
+              cols="50"
+              rows="6"
+              spellcheck="false"></textarea></label></p>
+        <p><input id="button" type="submit" value="Enviar" /></p>
+      </form>
+    </section>
     <script src="./main.js"></script>
   </body>
 </html>

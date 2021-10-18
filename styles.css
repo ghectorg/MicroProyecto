@@ -223,5 +223,38 @@ body {
   margin-top: 100px;
   position: relative;
   min-height: 100vh;
+  background-color: var(--fiveColor);
+}
+
+/*ESTILOS PARA MOSTRAR cONTACT*/
+#contactMe {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  min-height: 50vh;
+  background-color: var(--fourColor);
+}
+#contactMe form {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  width: 100%;
   background-color: var(--twoColor);
+}
+#contactMe form > p {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  align-items: center;
+}
+#button {
+  text-align: center;
+  padding: 10px;
+  background-color: var(--oneColor);
+  box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7);
+  border-radius: 5px;
+  color: var(--threeColor);
+  font: bold 16px;
 }

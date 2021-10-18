@@ -56,3 +56,5 @@ function iniciar() {
   canvas.clearRect(120, 120, 80, 80);
 }
 window.addEventListener("load", iniciar);
+
+//EVENTOS Y FUNCIONES PARA FORMULARIO

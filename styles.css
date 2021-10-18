@@ -214,13 +214,12 @@ body {
   color: var(--threeColor);
 }
 #motivation > p {
-  margin-top: 10px;
   text-align: center;
 }
 
 /*ESTILOS PARA MOSTRAR SKILLS*/
 #skills .mySkills {
-  margin-top: 100px;
+  margin-top: 180px;
   position: relative;
   min-height: 100vh;
   background-color: var(--fiveColor);

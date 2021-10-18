@@ -217,3 +217,11 @@ body {
   margin-top: 10px;
   text-align: center;
 }
+
+/*ESTILOS PARA MOSTRAR SKILLS*/
+#skills .mySkills {
+  margin-top: 100px;
+  position: relative;
+  min-height: 100vh;
+  background-color: var(--twoColor);
+}
